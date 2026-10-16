@@ -1,0 +1,19 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Data and results (obtain datasets from original sources; see README)
+data/*.npy
+data/**/*.npy
+results/
+checkpoints/
+.cache/
